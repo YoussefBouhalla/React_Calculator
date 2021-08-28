@@ -1,4 +1,4 @@
-import calculatorLogo from '../images/calculator.svg';
+import calculatorLogo from '../../images/calculator.svg';
 const Header = ({ title, backColor }) => {
     return (
         <header className='header bxs-header' style={{'background-color' : backColor}}>
