@@ -1,13 +1,20 @@
-*{
+/* global */
+.content{
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+p{
+  margin-bottom: 0;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: poppins;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -16,12 +23,32 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-/* global */
-.content{
-  max-width: 1400px;
-  margin-left: auto;
-  margin-right: auto;
+
+/* colors */
+.cl-primary{
+  color: #2A0944;
 }
+.cl-second{
+  color: #FEC260;
+}
+.cl-third{
+  color: #8F1858;
+}
+
+/* background colors */
+.bkg-primary{
+  background-color: #2A0944;
+}
+.bkg-secondary{
+  background-color: #FEC260;
+}
+.bkg-third{
+  background-color: #8F1858;
+}
+/* fonts */
+/* font sizes */
+
+
 /* header style */
 .header{
   height: 40px;
@@ -34,5 +61,10 @@ code {
 .title{
   font-size: 20px;
   color: #FEC260;
-  font-weight: 700;
+  font-weight: 800;
+}
+.middleLogo{
+  width: 27px;
+  height: 27px;
+  margin-right: 7px;
 }
