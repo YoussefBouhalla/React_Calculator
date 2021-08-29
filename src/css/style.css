@@ -249,4 +249,27 @@ code {
   border: solid 1.6px #FEC260;
   border-radius: 5px;
 }
+
+.keypad {
+  width: 323px;
+}
+
+.keypad .complex-ops {
+  width: 224px;
+  height: 76px;
+}
+
+.keypad-button {
+  width: 66px;
+  height: 33px;
+  border-radius: 15px;
+}
+
+.keypad-button .key {
+  width: inherit;
+  height: 27px;
+  border-radius: inherit;
+  border: none;
+  outline: none;
+}
 /*# sourceMappingURL=style.css.map */

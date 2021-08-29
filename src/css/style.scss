@@ -211,3 +211,28 @@ code {
 
   }
 }
+
+// keypad style
+
+.keypad{
+  width: 323px;
+  .complex-ops{
+    width: 224px;
+    height: 76px;
+  }
+}
+
+// Buttons
+
+  .keypad-button{
+    width: 66px;
+    height: 33px;
+    border-radius: 15px;
+    .key{
+      width: inherit;
+      height: 27px;
+      border-radius: inherit;
+      border: none;
+      outline: none;
+    }
+  }

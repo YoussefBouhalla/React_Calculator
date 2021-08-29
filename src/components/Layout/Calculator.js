@@ -1,4 +1,5 @@
 import React from 'react'
+import Keypad from '../Keypad'
 import Screen from '../Screen'
 
 function Calculator() {
@@ -12,6 +13,7 @@ function Calculator() {
                     </div>
                 </div>
                 <Screen />
+                <Keypad />
             </div>
         </div>
     )
