@@ -213,17 +213,37 @@ code {
 }
 
 // keypad style
-
+$keypadHeight1: 76px ;
+$keypadHeight2: 164px ;
+$keypadWidth1: 224px ;
+$keypadWidth2: 66px ;
 .keypad{
+  display: grid;
+  grid-template-columns:  $keypadWidth1 $keypadWidth2;
+  grid-template-rows:  $keypadHeight1 $keypadHeight2;
+  justify-content: space-between;
+  align-content: space-between;
   width: 323px;
+  height: calc(#{$keypadHeight1} + #{$keypadHeight2} + 30px);
   .complex-ops{
-    width: 224px;
-    height: 76px;
+    width: $keypadWidth1;
+    height: $keypadHeight1;
+  }
+  .clear{
+    width: $keypadWidth2;
+    height: $keypadHeight1;
+  }
+  .numbers{
+    width: $keypadWidth1;
+    height: $keypadHeight2;
+  }
+  .operations{
+    width: $keypadWidth2;
+    height: $keypadHeight2;
   }
 }
 
 // Buttons
-
   .keypad-button{
     width: 66px;
     height: 33px;
@@ -235,4 +255,10 @@ code {
       border: none;
       outline: none;
     }
+  }
+
+  // backspace
+  .backspace{
+    width: 21px;
+    height: 16px;
   }

@@ -251,12 +251,33 @@ code {
 }
 
 .keypad {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 224px 66px;
+      grid-template-columns: 224px 66px;
+  -ms-grid-rows: 76px 164px;
+      grid-template-rows: 76px 164px;
   width: 323px;
 }
 
 .keypad .complex-ops {
   width: 224px;
   height: 76px;
+}
+
+.keypad .clear {
+  width: 66px;
+  height: 76px;
+}
+
+.keypad .numbers {
+  width: 224px;
+  height: 164px;
+}
+
+.keypad .operations {
+  width: 66px;
+  height: 164px;
 }
 
 .keypad-button {
