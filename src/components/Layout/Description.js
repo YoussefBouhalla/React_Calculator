@@ -2,7 +2,7 @@ import React from 'react'
 
 const Description = ({ title }) => {
     return (
-        <div className='w-50 description d-flex flex-column justify-content-center'>
+        <div className='w-60 description d-flex flex-column justify-content-center'>
             <div className='d-flex align-items-center'>
                 <p className='cl-primary fs-12-h4 fw-700'>BHL</p>
                 <div className='bkg-third big-tag mx-2 cl-second fs-12-h5 fw-500 text-center'>
