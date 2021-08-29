@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <Header title={appName} backColor={primaryColor}/>
-      <div className='content d-flex'>
+      <div className='content d-flex w-85'>
         <Description title={appName} />
       </div>
     </div>

@@ -69,6 +69,13 @@ code {
 .bkg-third{
   background-color: #8F1858;
 }
+
+/* width */
+
+.w-85{
+  width: 78%;
+}
+
 /* fonts */
 /* font sizes */
 .fs-10{
@@ -150,4 +157,9 @@ code {
   width: 27px;
   height: 27px;
   margin-right: 7px;
+}
+
+/* description style */
+.description{
+  height: calc(100vh - 62px);
 }
