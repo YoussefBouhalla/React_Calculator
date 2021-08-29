@@ -232,4 +232,21 @@ code {
 .calculator .calculator-header {
   border-bottom: solid 1.8px #FEC260;
 }
+
+.calculator .screen-section {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  height: 132px;
+  width: 100%;
+}
+
+.calculator .screen-section .screen {
+  height: 110px;
+  width: 323px;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(30%, #8F1858), color-stop(70%, #B10060));
+  background: linear-gradient(#8F1858 30%, #B10060 70%);
+  border: solid 1.6px #FEC260;
+  border-radius: 5px;
+}
 /*# sourceMappingURL=style.css.map */

@@ -1,4 +1,5 @@
 import React from 'react'
+import Screen from '../Screen'
 
 function Calculator() {
     return (
@@ -10,6 +11,7 @@ function Calculator() {
                         calculator V1.0
                     </div>
                 </div>
+                <Screen />
             </div>
         </div>
     )

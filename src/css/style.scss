@@ -1,3 +1,5 @@
+
+
 /* global */
 .content{
   max-width: 1400px;
@@ -193,5 +195,19 @@ code {
 
   .calculator-header{
     border-bottom: solid 1.8px #FEC260;
+  }
+  .screen-section{
+    display: grid;
+    place-items: center;
+    height: 132px;
+    width: 100%;
+    .screen{
+      height: 110px;
+      width: 323px;
+      background: linear-gradient(#8F1858 30%, #B10060 70%);
+      border: solid 1.6px #FEC260;
+      border-radius: 5px;
+    }
+
   }
 }
